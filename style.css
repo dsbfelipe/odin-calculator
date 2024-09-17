@@ -29,3 +29,52 @@ header {
   background-color: rgba(230, 245, 255, 0.7);
   backdrop-filter: blur(16px);
 }
+
+.delete {
+  width: 32px;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digits-container {
+  display: flex;
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+button {
+  height: 100%;
+  font-size: 32px;
+  border-radius: 0;
+  border: 1px solid #99a5a825;
+}
+
+.column:last-of-type > button {
+  flex: 1;
+}
+
+.column:last-of-type > button:last-of-type {
+  flex: 2.02;
+  background-color: #020617;
+  color: white;
+}
+
+.number-button {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.operation-button, .dot-button, .delete-button, .ac-button {
+  background-color: rgba(223, 223, 223, 0.4);
+}
