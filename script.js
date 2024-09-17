@@ -1,3 +1,14 @@
+let firstNumber;
+let secondNumber;
+let operator;
+
+const operations = {
+  "+": add,
+  "-": subtract,
+  "*": multiply,
+  "/": divide,
+}
+
 function add(a, b) {
   return a + b;
 }
@@ -16,4 +27,8 @@ function divide(a, b) {
     return;
   }
   return a / b;
+}
+
+function operate(operator, firstNumber, secondNumber) {
+  return operations[operator](firstNumber, secondNumber);
 }
