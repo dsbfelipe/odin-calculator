@@ -56,9 +56,12 @@ header {
 
 button {
   height: 100%;
-  font-size: 32px;
+  font-size: 40px;
   border-radius: 0;
   border: 1px solid #99a5a825;
+  font-family: "Rajdhani", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .column:last-of-type > button {
@@ -67,14 +70,24 @@ button {
 
 .column:last-of-type > button:last-of-type {
   flex: 2.02;
-  background-color: #020617;
+  background-color: #09090b;
   color: white;
 }
 
 .number-button {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #ffffff33;
 }
 
 .operation-button, .dot-button, .delete-button, .ac-button {
-  background-color: rgba(223, 223, 223, 0.4);
+  background-color: #d6d6d666;
+}
+
+.operation-button {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+.mod-button {
+  font-size: 32px;
+  font-weight: 400;
 }
