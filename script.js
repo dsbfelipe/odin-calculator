@@ -7,6 +7,7 @@ const operations = {
   "-": subtract,
   "*": multiply,
   "/": divide,
+  "%": mod,
 }
 
 function add(a, b) {
@@ -27,6 +28,10 @@ function divide(a, b) {
     return;
   }
   return a / b;
+}
+
+function mod(a, b) {
+  return a % b;
 }
 
 function operate(operator, firstNumber, secondNumber) {
