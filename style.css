@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex; 
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.menu {
+  width: 32px;
+}
+
+.logo {
+  width: 64px;
+}
