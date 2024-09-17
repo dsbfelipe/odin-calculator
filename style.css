@@ -8,6 +8,9 @@ body {
   background-image: url(assets/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "Rajdhani", system-ui;
+  font-weight: 300;
+  font-style: normal;
 }
 
 header {
@@ -91,4 +94,20 @@ button {
 .mod-button {
   font-size: 32px;
   font-weight: 400;
+}
+
+.input {
+  font-size: 96px;
+  width: 100vw;
+  text-align: end;
+  padding: 0px 32px;
+}
+
+.last-input {
+  font-size: 64px;
+  width: 100vw;
+  text-align: end;
+  padding: 0px 32px;
+  margin-bottom: -16px;
+  color: rgba(0, 0, 0, 0.541);
 }
