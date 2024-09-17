@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+body {
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 header {
   display: flex; 
   justify-content: space-between;
@@ -16,4 +22,10 @@ header {
 
 .logo {
   width: 64px;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgba(230, 245, 255, 0.7);
+  backdrop-filter: blur(16px);
 }
