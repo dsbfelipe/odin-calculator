@@ -111,3 +111,11 @@ button {
   margin-bottom: -16px;
   color: rgba(0, 0, 0, 0.541);
 }
+
+h1 {
+  padding-left: 32px;
+  font-size: 64px;
+  font-weight: 500;
+  margin-top: 24px;
+  margin-bottom: 112px;
+}
